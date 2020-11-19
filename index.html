@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="calc.js"></script>
+    <title>ZarqulTech Temperature Calculator</title>
+  </head>
+  <body>
+    <h1>Convert between celcius, fahrenheit and kelvin</h1>
+    <table>
+      <th>Celcius</th>
+        <td><input type="number" id="celciusField" onkeyup="fromCelcius()" /></td>
+      <th>Fahrenheit</th>
+        <td><input id="fahrenheitField" type="number" onkeyup="fromFahrenheit()" /></td>
+      <th>Kelvin</th>
+        <td><input id="kelvinField" type="number" onkeyup="fromKelvin()" /></td>
+    </table>
+    <h4>Keep in mind that some calculations may be rounded up or down</h4>
+  </body>
+</html>
